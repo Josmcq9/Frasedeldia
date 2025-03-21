@@ -184,7 +184,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Función para mostrar la frase en la página
     function mostrarFraseDelDia() {
         const { frase, autor } = obtenerFraseDelDia();
-        fraseElement.textContent = frase;
+        fraseElement.textContent = `"` + frase + `"`;
         autorElement.textContent = autor;
     }
 
